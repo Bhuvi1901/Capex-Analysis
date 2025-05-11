@@ -22,6 +22,15 @@ Analyzed capital project spending data to predict budget variance. The project a
 - Trained XGBoost and Linear Regression models to predict cost variance (numerical target).
 - The XGBoost regressor was fine-tuned using grid search, achieving strong R² scores and low MAE.
 
+### 5. Data Visualization
+- Developed an interactive [Power BI dashboard]('https://github.com/user-attachments/assets/0b1fb610-3626-47ca-a7c7-6b7b3aec66c0') to analyze:
+     - Capital expenditure data across 100+ projects, showcasing total budget, actual expenditure, and active project count.
+     - Highlighted key insights such as phase-wise budget vs. expenditure, percentage variance detection using DAX, and project overrun/underrun classification across 
+            Execution, Closure, and Planning stages.
+
+    ![image](https://github.com/user-attachments/assets/0b1fb610-3626-47ca-a7c7-6b7b3aec66c0)
+
+
 ## Technologies Used
 
 - Python
